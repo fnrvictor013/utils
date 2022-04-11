@@ -1,4 +1,4 @@
-import { Client } from "./modules/client";
+import { Client } from "./core/client";
 
 export {
   Client

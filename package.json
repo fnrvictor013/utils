@@ -3,10 +3,12 @@
   "version": "0.0.1",
   "main": "dist/index.js",
   "license": "UNLICENSED",
-  "author": "Gustavo Arantes <me@arantes.dev> (https://arantes.dev/)",
+  "author": "Victor Ferreira <fnrvictor013@gmail.com>",
   "scripts": {
     "dev": "npx nodemon --exec ts-node exemple/index.ts",
-    "typeorm": "npx ts-node ./node_modules/typeorm/cli.js"
+    "typeorm": "npx ts-node ./node_modules/typeorm/cli.js",
+    "build": "tsc",
+    "example": "npx ts-node ./example/index.ts"
   },
   "devDependencies": {
     "@types/node": "^16.11.7",
